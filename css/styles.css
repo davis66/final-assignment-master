@@ -26,6 +26,23 @@ body .container-fluid {
       padding: 4%; }
       body .container-fluid .page_main .section_1 .width_decrease .section_1_logo img {
         max-width: 100%; }
+  body .container-fluid .page_main .section_2 {
+    position: relative;
+    text-align: center; }
+    body .container-fluid .page_main .section_2 .section_2_background_img img {
+      max-width: 100%; }
+    body .container-fluid .page_main .section_2 .section_2_info {
+      position: absolute;
+      color: white;
+      text-align: center;
+      top: 0%; }
+      body .container-fluid .page_main .section_2 .section_2_info .section_2_header_logo {
+        padding: 20px; }
+      body .container-fluid .page_main .section_2 .section_2_info .section_2_heading {
+        padding: 20px; }
+      body .container-fluid .page_main .section_2 .section_2_info .section_2_about_us {
+        padding: 20px;
+        margin: 0 24.5%; }
 
 .nav-item .nav-link {
   color: white; }

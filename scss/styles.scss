@@ -47,6 +47,36 @@ body{
           
         }
       }
+      .section_2{
+        position:relative;
+        text-align:center;
+        .section_2_background_img{
+          img{
+            max-width:100%;
+          }
+        }
+        .section_2_info{
+          position: absolute;
+          color:white;
+          text-align:center;
+          top:0%;
+          
+          .section_2_header_logo{
+            
+            // top:0%;
+            
+            padding:20px;
+          }
+          .section_2_heading{
+            padding:20px;
+          }
+          .section_2_about_us{
+            padding:20px;
+            margin: 0 24.5%;
+          }
+
+        }
+      }
     }
   }
 }
