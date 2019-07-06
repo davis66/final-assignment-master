@@ -1,0 +1,57 @@
+.block_inline{
+ display:inline;
+}
+
+body{
+  .container-fluid {
+    padding:0;
+    .page_header{
+      .section_one{
+        position: relative;
+        .banner_image{
+          img{
+          width:100%;
+          }
+        }
+        .navigation_bar{
+          position: absolute;
+          width:100%;
+          top:0%;
+        }
+        .see_why{
+          position: absolute;
+          width:100%;
+          bottom:11%;
+          text-align: center;
+          color: white;
+          .arrow_down{
+            max-width:100%;
+          }
+        }
+      }
+    }
+
+    .page_main{
+      .section_1{
+         .width_decrease{
+          text-align: center;
+          width:53%;
+          .section_1_logo{
+            
+            padding:4%;
+              img{
+                max-width: 100%;
+              }
+          }
+          
+          
+        }
+      }
+    }
+  }
+}
+.nav-item{
+  .nav-link{
+    color:white;
+  }
+}

@@ -1,0 +1,31 @@
+.block_inline {
+  display: inline; }
+
+body .container-fluid {
+  padding: 0; }
+  body .container-fluid .page_header .section_one {
+    position: relative; }
+    body .container-fluid .page_header .section_one .banner_image img {
+      width: 100%; }
+    body .container-fluid .page_header .section_one .navigation_bar {
+      position: absolute;
+      width: 100%;
+      top: 0%; }
+    body .container-fluid .page_header .section_one .see_why {
+      position: absolute;
+      width: 100%;
+      bottom: 11%;
+      text-align: center;
+      color: white; }
+      body .container-fluid .page_header .section_one .see_why .arrow_down {
+        max-width: 100%; }
+  body .container-fluid .page_main .section_1 .width_decrease {
+    text-align: center;
+    width: 53%; }
+    body .container-fluid .page_main .section_1 .width_decrease .section_1_logo {
+      padding: 4%; }
+      body .container-fluid .page_main .section_1 .width_decrease .section_1_logo img {
+        max-width: 100%; }
+
+.nav-item .nav-link {
+  color: white; }
