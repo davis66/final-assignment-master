@@ -3,6 +3,7 @@
 }
 
 body{
+  background-color: #f3f3f3;
   .container-fluid {
     padding:0;
     .page_header{
@@ -53,6 +54,7 @@ body{
         .section_2_background_img{
           img{
             max-width:100%;
+            width:100%;
           }
         }
         .section_2_info{
@@ -60,6 +62,7 @@ body{
           color:white;
           text-align:center;
           top:0%;
+          width:100%;
           
           .section_2_header_logo{
             
@@ -77,9 +80,177 @@ body{
 
         }
       }
-    }
-  }
+      .section_3{
+        // color:white;
+        .row{
+          text-align:center;
+          
+          // .section_3_header{
+            
+          // }
+          .john{
+            .john_img{
+              img{
+              max-width:100%;
+              }
+            }
+            .john_caption{
+              .font_awesome{
+                color:grey;
+                i{
+                  padding: 10px;
+                  font-weight:bold;
+                  font-size:20px;
+                }
+              }
+            } 
+          }
+          .tim{
+            .tim_img{ 
+            img{
+              max-width:100%;
+              }
+            }
+            .tim_caption{
+              .font_awesome{
+                color:grey;
+                i{
+                  padding: 10px;
+                  font-weight:bold;
+                  font-size:20px;
+                }
+              }
+            } 
+          }
+          .alison{
+            .alison_img{
+              img{
+                max-width:100%;
+                }
+            }
+            .alison_caption{
+              .font_awesome{
+                color:grey;
+                i{
+                  padding: 10px;
+                  font-weight:bold;
+                  font-size:20px;
+                }
+              }
+            } 
+          }
+        }
+      }
+
+      .section_4{
+        position:relative;
+        text-align:center;
+        
+        
+        .section_4_background_img{
+          img{
+            max-width:100%;
+            width:100%;
+          }
+        }
+        .section_4_info{
+          position: absolute;
+          color:white;
+          text-align:center;
+          top:0%;
+          width:100%;
+          
+          
+          .section_4_header_logo{
+            // width:100%;
+            // top:0%;
+            
+            padding:20px;
+          }
+          .section_4_heading{
+            padding:20px;
+          }
+          
+
+        }
+      }
+      .section_5{
+        text-align:center;
+        
+        .section_5_info{
+          width:100%;
+          // text-align:center;
+            .section_5_header_logo{
+              // width:100%;
+              // top:0%;
+              
+              padding:20px;
+            }
+            .section_5_heading{
+              padding:20px;
+            }
+        }
+        .section_5_info_buttons{
+          .section_5_button{
+            margin: 20px;
+            background: transparent;
+            border: 2px solid red;
+            padding: 7px 20px;
+            text-align: center;
+            color: red;
+            border-radius:0;
+          }
+          
+        }
+        .section_5_all{
+          .display_up{
+            width:100%;
+            // display:flex;
+            // max-height:200px;
+            img{
+              // font-size:0;
+              // max-width:100%;
+              width:20%;
+             
+            }
+          }
+          .display_down{
+            width:100%;
+            img{
+              
+              width:20%
+            }
+          }
+        }
+      }
+      .section_6{
+        
+        .row{
+          text-align:center;
+          .section_6_info{
+            width:100%;
+            // text-align:center;
+            .section_6_header_logo{
+              // width:100%;
+              // top:0%;
+              
+              padding:20px;
+            }
+            .section_6_heading{
+              padding:20px;
+            }
+          }  
+          .blog{
+            img{
+              width:100%;
+            }
+          }
+        }
+      }
+    }  
+  } 
 }
+
 .nav-item{
   .nav-link{
     color:white;
