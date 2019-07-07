@@ -1,8 +1,17 @@
 .block_inline{
  display:inline-block;
 }
+.margin-0{
+  margin:0
+}
 .text_highlighted{
   color:red
+}
+.button {
+  padding: 2.4% 31px;
+  background-color:red;
+  color:white;
+  border:0;
 }
 
 body{
@@ -302,7 +311,7 @@ body{
                 padding:7px;
               }
             }
-            .email_subscription.block_inline{
+            .email_subscription{
               text-align:right;
               width:50%;
               input {
@@ -310,11 +319,50 @@ body{
                 padding: 5px 26% 12.5px 3%;
                 margin-right: 6.45%;
               }
-              button {
-                padding: 2.4% 31px;
-                background-color:red;
-                color:white;
-                border:0;
+              
+            }
+          }
+        }
+      }
+      .section_8.container{
+        width:50%;
+        .section_8_header{
+          text-align:center;
+          img{
+            padding:3%;
+          }
+          h3{
+            padding:1%;
+          }
+        }
+        // .company_details{
+          
+        //     }
+        .say_hello{
+          padding-left:8%;
+          .input_entry{
+            
+            p{
+              input{
+                width:63%;
+                padding:1%;
+                outline: none;
+              }
+              span{
+                padding-left:4%;
+              }
+            }
+            .input_area{
+              textarea{
+                resize: none;
+                width:100%;
+                outline: none;
+              }
+            }
+            .button_send{
+              text-align:right;
+              .button{
+                padding:1% 31px;
               }
             }
           }
