@@ -58,6 +58,12 @@ button.slick-prev, button.slick-prev:hover {
   color:white;
   border:0;
 }
+.arrow-down {
+  display:inline-block;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-top: 137px solid #a9b8cc;
+}
 
 body{
   background-color: #f3f3f3;
@@ -105,7 +111,9 @@ body{
         }
         .slick_slider{
           div{
+            text-align: center;
             a{
+             
               color:black;
               &:link {
                 text-decoration: none;
@@ -118,8 +126,10 @@ body{
               &:hover {
                 color:red;
                 text-decoration: none;
-                img{
-                  src: url('raw-images\what we do\red_triangle.png');
+                  p{
+                    span{
+                    border-top: 137px solid red;
+                  }
                 }
               }
               
@@ -413,6 +423,7 @@ body{
         }
       }
       .section_8.container{
+        padding-bottom:3%;
         width:50%;
         .section_8_header{
           text-align:center;

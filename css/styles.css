@@ -38,6 +38,12 @@ button.slick-prev, button.slick-prev:hover {
   color: white;
   border: 0; }
 
+.arrow-down {
+  display: inline-block;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-top: 137px solid #a9b8cc; }
+
 body {
   background-color: #f3f3f3; }
   body .container-fluid {
@@ -65,19 +71,21 @@ body {
         padding: 4%; }
         body .container-fluid .page_main .section_1 .width_decrease .section_1_logo img {
           max-width: 100%; }
-    body .container-fluid .page_main .section_1 .slick_slider div a {
-      color: black; }
-      body .container-fluid .page_main .section_1 .slick_slider div a:link {
-        text-decoration: none; }
-      body .container-fluid .page_main .section_1 .slick_slider div a:visited {
-        text-decoration: none; }
-      body .container-fluid .page_main .section_1 .slick_slider div a:hover {
-        color: red;
-        text-decoration: none; }
-        body .container-fluid .page_main .section_1 .slick_slider div a:hover img {
-          src: url("raw-imageswhat we dored_triangle.png"); }
-      body .container-fluid .page_main .section_1 .slick_slider div a:active {
-        text-decoration: none; }
+    body .container-fluid .page_main .section_1 .slick_slider div {
+      text-align: center; }
+      body .container-fluid .page_main .section_1 .slick_slider div a {
+        color: black; }
+        body .container-fluid .page_main .section_1 .slick_slider div a:link {
+          text-decoration: none; }
+        body .container-fluid .page_main .section_1 .slick_slider div a:visited {
+          text-decoration: none; }
+        body .container-fluid .page_main .section_1 .slick_slider div a:hover {
+          color: red;
+          text-decoration: none; }
+          body .container-fluid .page_main .section_1 .slick_slider div a:hover p span {
+            border-top: 137px solid red; }
+        body .container-fluid .page_main .section_1 .slick_slider div a:active {
+          text-decoration: none; }
     body .container-fluid .page_main .section_2 {
       position: relative;
       text-align: center; }
@@ -226,6 +234,7 @@ body {
             padding: 5px 26% 12.5px 3%;
             margin-right: 6.45%; }
     body .container-fluid .page_main .section_8.container {
+      padding-bottom: 3%;
       width: 50%; }
       body .container-fluid .page_main .section_8.container .section_8_header {
         text-align: center; }
