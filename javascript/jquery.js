@@ -1,9 +1,10 @@
 $(document).ready(function(){
-    $('.sliding_section_1').slick({
+    $('.slick_slider').slick({
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows:true,
+    centerMode: false
   });
 })
 // $('.slick-next').slick({

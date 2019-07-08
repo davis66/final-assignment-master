@@ -1,3 +1,34 @@
+//slick-slider
+button.slick-next, button.slick-next:hover {
+
+  
+
+  width: 47px;
+  height: 75px;
+  background-image: url("../raw-images/happyClient/rightArrow.png");
+  background-size: 9px;
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+button.slick-prev, button.slick-prev:hover {
+ 
+  
+
+  width: 47px;
+  height: 75px;
+  background-image: url("../raw-images/happyClient/leftArrow.png");
+  background-size: 9px;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 70px;
+  color: #EA8496;
+  line-height: inherit;
+  font-weight: bold;
+}
+
+
 .block_inline{
  display:inline-block;
 }
@@ -6,6 +37,11 @@
 }
 .text_highlighted{
   color:red
+}
+.nav-item{
+  .nav-link{
+    color:white;
+  }
 }
 // .giveRelative{
 //   position:relative;
@@ -66,8 +102,33 @@ body{
                 max-width: 100%;
               }
           }
-          
-          
+        }
+        .slick_slider{
+          div{
+            a{
+              color:black;
+              &:link {
+                text-decoration: none;
+              }
+              
+              &:visited {
+                text-decoration: none;
+              }
+              
+              &:hover {
+                color:red;
+                text-decoration: none;
+                img{
+                  src: url('raw-images\what we do\red_triangle.png');
+                }
+              }
+              
+              &:active {
+                text-decoration: none;
+              }
+              
+            }
+          }
         }
       }
       .section_2{
@@ -191,6 +252,23 @@ body{
           }
           .section_4_heading{
             padding:20px;
+          }
+          .slick_slider{
+            height:20%;
+            div{
+              
+              a{
+                p{
+                  margin:0;
+                  
+                  img{
+                    height: 40px;
+                    width: auto;
+                    margin: 0 auto;
+                  }
+                }
+              }
+            }
           }
           
 
@@ -379,11 +457,27 @@ body{
         }
       }
     }  
+
+    .page_footer{
+      .responsive-map{
+        overflow: hidden;
+        padding-bottom: 30.25%;
+        position: relative;
+        height: 0;
+
+        iframe{
+          width: 100%;
+          position:absolute;
+          height:100%;
+          left:0;
+          top:0;
+          margin: 0px;
+          padding: 0px;
+          border-width: 0;
+        }
+      }
+    }
   } 
 }
 
-.nav-item{
-  .nav-link{
-    color:white;
-  }
-}
+

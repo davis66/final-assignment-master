@@ -1,3 +1,25 @@
+button.slick-next, button.slick-next:hover {
+  width: 47px;
+  height: 75px;
+  background-image: url("../raw-images/happyClient/rightArrow.png");
+  background-size: 9px;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+button.slick-prev, button.slick-prev:hover {
+  width: 47px;
+  height: 75px;
+  background-image: url("../raw-images/happyClient/leftArrow.png");
+  background-size: 9px;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.slick-prev:before, .slick-next:before {
+  font-size: 70px;
+  color: #EA8496;
+  line-height: inherit;
+  font-weight: bold; }
+
 .block_inline {
   display: inline-block; }
 
@@ -6,6 +28,9 @@
 
 .text_highlighted {
   color: red; }
+
+.nav-item .nav-link {
+  color: white; }
 
 .button {
   padding: 2.4% 31px;
@@ -40,6 +65,19 @@ body {
         padding: 4%; }
         body .container-fluid .page_main .section_1 .width_decrease .section_1_logo img {
           max-width: 100%; }
+    body .container-fluid .page_main .section_1 .slick_slider div a {
+      color: black; }
+      body .container-fluid .page_main .section_1 .slick_slider div a:link {
+        text-decoration: none; }
+      body .container-fluid .page_main .section_1 .slick_slider div a:visited {
+        text-decoration: none; }
+      body .container-fluid .page_main .section_1 .slick_slider div a:hover {
+        color: red;
+        text-decoration: none; }
+        body .container-fluid .page_main .section_1 .slick_slider div a:hover img {
+          src: url("raw-imageswhat we dored_triangle.png"); }
+      body .container-fluid .page_main .section_1 .slick_slider div a:active {
+        text-decoration: none; }
     body .container-fluid .page_main .section_2 {
       position: relative;
       text-align: center; }
@@ -101,6 +139,14 @@ body {
           padding: 20px; }
         body .container-fluid .page_main .section_4 .section_4_info .section_4_heading {
           padding: 20px; }
+        body .container-fluid .page_main .section_4 .section_4_info .slick_slider {
+          height: 20%; }
+          body .container-fluid .page_main .section_4 .section_4_info .slick_slider div a p {
+            margin: 0; }
+            body .container-fluid .page_main .section_4 .section_4_info .slick_slider div a p img {
+              height: 40px;
+              width: auto;
+              margin: 0 auto; }
     body .container-fluid .page_main .section_5 {
       text-align: center; }
       body .container-fluid .page_main .section_5 .section_5_info {
@@ -203,6 +249,17 @@ body {
           text-align: right; }
           body .container-fluid .page_main .section_8.container .say_hello .input_entry .button_send .button {
             padding: 1% 31px; }
-
-.nav-item .nav-link {
-  color: white; }
+    body .container-fluid .page_footer .responsive-map {
+      overflow: hidden;
+      padding-bottom: 30.25%;
+      position: relative;
+      height: 0; }
+      body .container-fluid .page_footer .responsive-map iframe {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        left: 0;
+        top: 0;
+        margin: 0px;
+        padding: 0px;
+        border-width: 0; }
