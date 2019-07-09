@@ -16,7 +16,7 @@ function style(){
 
 function imgSquash(){
     return gulp
-        .src("./raw-images/*")
+        .src("./raw-images/*/*")
         .pipe(imagemin())
         .pipe(gulp.dest("./minified/images"));
     }
