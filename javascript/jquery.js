@@ -19,3 +19,51 @@ $(function(){
   });
   
 });
+
+$(function(){
+  $(".happy_client_chastica").on({
+   mouseenter: function(){
+    $(this).attr('src','raw-images/happyClient/chastica_higlighted.png');
+  },
+  mouseleave: function(){
+    $(this).attr('src','raw-images/happyClient/chastica.png');
+  }
+  });
+  
+});
+
+$(function(){
+  $(".happy_client_ozi").on({
+   mouseenter: function(){
+    $(this).attr('src','raw-images/happyClient/OZ_highlighted.png');
+  },
+  mouseleave: function(){
+    $(this).attr('src','raw-images/happyClient/ozi.png');
+  }
+  });
+  
+});
+
+$(function(){
+  $(".happy_client_freshes").on({
+   mouseenter: function(){
+    $(this).attr('src','raw-images/happyClient/freshes_highlighted.png');
+  },
+  mouseleave: function(){
+    $(this).attr('src','raw-images/happyClient/freshes.png');
+  }
+  });
+  
+});
+
+$(function(){
+  $(".happy_client_daisy_clean").on({
+   mouseenter: function(){
+    $(this).attr('src','raw-images/happyClient/daisyclean_highlighted.png');
+  },
+  mouseleave: function(){
+    $(this).attr('src','raw-images/happyClient/daisyclean.png');
+  }
+  });
+  
+});

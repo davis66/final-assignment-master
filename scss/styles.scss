@@ -36,7 +36,7 @@ button.slick-prev, button.slick-prev:hover {
   margin:0
 }
 .text_highlighted{
-  color:red
+  color:#ED485C
 }
 .nav-item{
   .nav-link{
@@ -104,7 +104,7 @@ button.slick-prev, button.slick-prev:hover {
   margin:0
 }
 .text_highlighted{
-  color:red
+  color:#ED485C
 }
 .nav-item{
   .nav-link{
@@ -154,6 +154,21 @@ body{
           position: absolute;
           width:100%;
           top:0%;
+          .navbar{
+            .container{
+              .navbar-nav{
+                .nav-item{
+                  .nav-link{
+                    &:hover{
+                      text-decoration:none;
+                      color:#ED485C;
+                    }
+                  }
+                }
+              }
+
+            }
+          }
         }
         .see_why{
           position: absolute;
@@ -197,11 +212,11 @@ body{
               }
               
               &:hover {
-                color:red;
+                color:#ED485C;
                 text-decoration: none;
                   p{
                     span{
-                    border-top: 137px solid red;
+                    border-top: 137px solid #ED485C;
                   }
                 }
               }
@@ -403,10 +418,10 @@ body{
           .section_5_button{
             margin: 20px;
             background-color: transparent;
-            border: 2px solid red;
+            border: 2px solid #ED485C;
             padding: 7px 20px;
             text-align: center;
-            color: red;
+            color: #ED485C;
             border-radius:0;
 
             &:hover{
@@ -419,7 +434,7 @@ body{
           .section_5_button_active{
           
             color:white;
-            background-color : red; 
+            background-color : #ED485C; 
           }
         }
         .section_5_all{

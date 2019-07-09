@@ -27,7 +27,7 @@ button.slick-prev, button.slick-prev:hover {
   margin: 0; }
 
 .text_highlighted {
-  color: red; }
+  color: #ED485C; }
 
 .nav-item .nav-link {
   color: white; }
@@ -73,7 +73,7 @@ button.slick-prev, button.slick-prev:hover {
   margin: 0; }
 
 .text_highlighted {
-  color: red; }
+  color: #ED485C; }
 
 .nav-item .nav-link {
   color: white; }
@@ -101,6 +101,9 @@ body .container-fluid {
       position: absolute;
       width: 100%;
       top: 0%; }
+      body .container-fluid .page_header .section_one .navigation_bar .navbar .container .navbar-nav .nav-item .nav-link:hover {
+        text-decoration: none;
+        color: #ED485C; }
     body .container-fluid .page_header .section_one .see_why {
       position: absolute;
       width: 100%;
@@ -125,10 +128,10 @@ body .container-fluid {
       body .container-fluid .page_main .section_1 .slick_slider div a:visited {
         text-decoration: none; }
       body .container-fluid .page_main .section_1 .slick_slider div a:hover {
-        color: red;
+        color: #ED485C;
         text-decoration: none; }
         body .container-fluid .page_main .section_1 .slick_slider div a:hover p span {
-          border-top: 137px solid red; }
+          border-top: 137px solid #ED485C; }
       body .container-fluid .page_main .section_1 .slick_slider div a:active {
         text-decoration: none; }
       body .container-fluid .page_main .section_1 .slick_slider div a p {
@@ -213,10 +216,10 @@ body .container-fluid {
     body .container-fluid .page_main .section_5 .section_5_info_buttons .section_5_button {
       margin: 20px;
       background-color: transparent;
-      border: 2px solid red;
+      border: 2px solid #ED485C;
       padding: 7px 20px;
       text-align: center;
-      color: red;
+      color: #ED485C;
       border-radius: 0; }
       body .container-fluid .page_main .section_5 .section_5_info_buttons .section_5_button:hover {
         color: white;
@@ -225,7 +228,7 @@ body .container-fluid {
         padding: 9px 22px; }
     body .container-fluid .page_main .section_5 .section_5_info_buttons .section_5_button_active {
       color: white;
-      background-color: red; }
+      background-color: #ED485C; }
     body .container-fluid .page_main .section_5 .section_5_all {
       position: relative; }
       body .container-fluid .page_main .section_5 .section_5_all .all_tab .display_up {
