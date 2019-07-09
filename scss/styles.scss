@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
 //slick-slider
 button.slick-next, button.slick-next:hover {
 
@@ -140,6 +143,7 @@ button.slick-prev, button.slick-prev:hover {
 body{
   
   .container-fluid {
+    font-family: 'Roboto', sans-serif;
     background-color: #f3f3f3;
     padding:0;
     .page_header{
