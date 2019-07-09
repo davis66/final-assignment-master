@@ -44,231 +44,297 @@ button.slick-prev, button.slick-prev:hover {
   border-right: 120px solid transparent;
   border-top: 137px solid #a9b8cc; }
 
-body {
-  background-color: #f3f3f3; }
-  body .container-fluid {
-    padding: 0; }
-    body .container-fluid .page_header .section_one {
-      position: relative; }
-      body .container-fluid .page_header .section_one .banner_image img {
-        width: 100%; }
-      body .container-fluid .page_header .section_one .navigation_bar {
-        position: absolute;
-        width: 100%;
-        top: 0%; }
-      body .container-fluid .page_header .section_one .see_why {
-        position: absolute;
-        width: 100%;
-        bottom: 11%;
-        text-align: center;
-        color: white; }
-        body .container-fluid .page_header .section_one .see_why .arrow_down {
-          max-width: 100%; }
-    body .container-fluid .page_main .section_1 .width_decrease {
+button.slick-next, button.slick-next:hover {
+  width: 47px;
+  height: 75px;
+  background-image: url("../raw-images/happyClient/rightArrow.png");
+  background-size: 9px;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+button.slick-prev, button.slick-prev:hover {
+  width: 47px;
+  height: 75px;
+  background-image: url("../raw-images/happyClient/leftArrow.png");
+  background-size: 9px;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.slick-prev:before, .slick-next:before {
+  font-size: 70px;
+  color: #EA8496;
+  line-height: inherit;
+  font-weight: bold; }
+
+.block_inline {
+  display: inline-block; }
+
+.margin-0 {
+  margin: 0; }
+
+.text_highlighted {
+  color: red; }
+
+.nav-item .nav-link {
+  color: white; }
+
+.button {
+  padding: 2.4% 31px;
+  background: #ED485C;
+  color: white;
+  border: 0; }
+
+.arrow-down {
+  display: inline-block;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-top: 137px solid #a9b8cc; }
+
+body .container-fluid {
+  background-color: #f3f3f3;
+  padding: 0; }
+  body .container-fluid .page_header .section_one {
+    position: relative; }
+    body .container-fluid .page_header .section_one .banner_image img {
+      width: 100%; }
+    body .container-fluid .page_header .section_one .navigation_bar {
+      position: absolute;
+      width: 100%;
+      top: 0%; }
+    body .container-fluid .page_header .section_one .see_why {
+      position: absolute;
+      width: 100%;
+      bottom: 11%;
       text-align: center;
-      width: 53%; }
-      body .container-fluid .page_main .section_1 .width_decrease .section_1_logo {
-        padding: 4%; }
-        body .container-fluid .page_main .section_1 .width_decrease .section_1_logo img {
-          max-width: 100%; }
-    body .container-fluid .page_main .section_1 .slick_slider div {
-      text-align: center; }
-      body .container-fluid .page_main .section_1 .slick_slider div a {
-        color: black; }
-        body .container-fluid .page_main .section_1 .slick_slider div a:link {
-          text-decoration: none; }
-        body .container-fluid .page_main .section_1 .slick_slider div a:visited {
-          text-decoration: none; }
-        body .container-fluid .page_main .section_1 .slick_slider div a:hover {
-          color: red;
-          text-decoration: none; }
-          body .container-fluid .page_main .section_1 .slick_slider div a:hover p span {
-            border-top: 137px solid red; }
-        body .container-fluid .page_main .section_1 .slick_slider div a:active {
-          text-decoration: none; }
-    body .container-fluid .page_main .section_2 {
-      position: relative;
-      text-align: center; }
-      body .container-fluid .page_main .section_2 .section_2_background_img img {
-        max-width: 100%;
-        width: 100%; }
-      body .container-fluid .page_main .section_2 .section_2_info {
-        position: absolute;
-        color: white;
-        text-align: center;
-        top: 0%;
-        width: 100%; }
-        body .container-fluid .page_main .section_2 .section_2_info .section_2_header_logo {
-          padding: 20px; }
-        body .container-fluid .page_main .section_2 .section_2_info .section_2_heading {
-          padding: 20px; }
-        body .container-fluid .page_main .section_2 .section_2_info .section_2_about_us {
-          padding: 20px;
-          margin: 0 24.5%; }
-    body .container-fluid .page_main .section_3 .row {
-      text-align: center; }
-      body .container-fluid .page_main .section_3 .row .john .john_img img {
+      color: white; }
+      body .container-fluid .page_header .section_one .see_why .arrow_down {
         max-width: 100%; }
-      body .container-fluid .page_main .section_3 .row .john .john_caption .font_awesome {
-        color: grey; }
-        body .container-fluid .page_main .section_3 .row .john .john_caption .font_awesome i {
-          padding: 10px;
-          font-weight: bold;
-          font-size: 20px; }
-      body .container-fluid .page_main .section_3 .row .tim .tim_img img {
+  body .container-fluid .page_main .section_1 .width_decrease {
+    text-align: center;
+    width: 53%; }
+    body .container-fluid .page_main .section_1 .width_decrease .section_1_logo {
+      padding: 4%; }
+      body .container-fluid .page_main .section_1 .width_decrease .section_1_logo img {
         max-width: 100%; }
-      body .container-fluid .page_main .section_3 .row .tim .tim_caption .font_awesome {
-        color: grey; }
-        body .container-fluid .page_main .section_3 .row .tim .tim_caption .font_awesome i {
-          padding: 10px;
-          font-weight: bold;
-          font-size: 20px; }
-      body .container-fluid .page_main .section_3 .row .alison .alison_img img {
-        max-width: 100%; }
-      body .container-fluid .page_main .section_3 .row .alison .alison_caption .font_awesome {
-        color: grey; }
-        body .container-fluid .page_main .section_3 .row .alison .alison_caption .font_awesome i {
-          padding: 10px;
-          font-weight: bold;
-          font-size: 20px; }
-    body .container-fluid .page_main .section_4 {
-      position: relative;
-      text-align: center; }
-      body .container-fluid .page_main .section_4 .section_4_background_img img {
-        max-width: 100%;
-        width: 100%; }
-      body .container-fluid .page_main .section_4 .section_4_info {
-        position: absolute;
-        color: white;
-        text-align: center;
-        top: 0%;
-        width: 100%; }
-        body .container-fluid .page_main .section_4 .section_4_info .section_4_header_logo {
-          padding: 20px; }
-        body .container-fluid .page_main .section_4 .section_4_info .section_4_heading {
-          padding: 20px; }
-        body .container-fluid .page_main .section_4 .section_4_info .slick_slider {
-          height: 20%; }
-          body .container-fluid .page_main .section_4 .section_4_info .slick_slider div a p {
-            margin: 0; }
-            body .container-fluid .page_main .section_4 .section_4_info .slick_slider div a p img {
-              height: 40px;
-              width: auto;
-              margin: 0 auto; }
-    body .container-fluid .page_main .section_5 {
-      text-align: center; }
-      body .container-fluid .page_main .section_5 .section_5_info {
-        width: 100%; }
-        body .container-fluid .page_main .section_5 .section_5_info .section_5_header_logo {
-          padding: 20px; }
-        body .container-fluid .page_main .section_5 .section_5_info .section_5_heading {
-          padding: 20px; }
-      body .container-fluid .page_main .section_5 .section_5_info_buttons .section_5_button {
-        margin: 20px;
-        background: transparent;
-        border: 2px solid red;
-        padding: 7px 20px;
-        text-align: center;
+  body .container-fluid .page_main .section_1 .slick_slider div {
+    text-align: center; }
+    body .container-fluid .page_main .section_1 .slick_slider div a {
+      color: black; }
+      body .container-fluid .page_main .section_1 .slick_slider div a:link {
+        text-decoration: none; }
+      body .container-fluid .page_main .section_1 .slick_slider div a:visited {
+        text-decoration: none; }
+      body .container-fluid .page_main .section_1 .slick_slider div a:hover {
         color: red;
-        border-radius: 0; }
-      body .container-fluid .page_main .section_5 .section_5_all .display_up {
+        text-decoration: none; }
+        body .container-fluid .page_main .section_1 .slick_slider div a:hover p span {
+          border-top: 137px solid red; }
+      body .container-fluid .page_main .section_1 .slick_slider div a:active {
+        text-decoration: none; }
+      body .container-fluid .page_main .section_1 .slick_slider div a p {
+        display: inline-block; }
+  body .container-fluid .page_main .section_2 {
+    position: relative;
+    text-align: center; }
+    body .container-fluid .page_main .section_2 .section_2_background_img img {
+      max-width: 100%;
+      width: 100%; }
+    body .container-fluid .page_main .section_2 .section_2_info {
+      position: absolute;
+      color: white;
+      text-align: center;
+      top: 0%;
+      width: 100%; }
+      body .container-fluid .page_main .section_2 .section_2_info .section_2_header_logo {
+        padding: 20px; }
+      body .container-fluid .page_main .section_2 .section_2_info .section_2_heading {
+        padding: 20px; }
+      body .container-fluid .page_main .section_2 .section_2_info .section_2_about_us {
+        padding: 20px;
+        margin: 0 24.5%; }
+  body .container-fluid .page_main .section_3 .row {
+    text-align: center; }
+    body .container-fluid .page_main .section_3 .row .john .john_img img {
+      max-width: 100%; }
+    body .container-fluid .page_main .section_3 .row .john .john_caption .font_awesome {
+      color: grey; }
+      body .container-fluid .page_main .section_3 .row .john .john_caption .font_awesome i {
+        padding: 10px;
+        font-weight: bold;
+        font-size: 20px; }
+    body .container-fluid .page_main .section_3 .row .tim .tim_img img {
+      max-width: 100%; }
+    body .container-fluid .page_main .section_3 .row .tim .tim_caption .font_awesome {
+      color: grey; }
+      body .container-fluid .page_main .section_3 .row .tim .tim_caption .font_awesome i {
+        padding: 10px;
+        font-weight: bold;
+        font-size: 20px; }
+    body .container-fluid .page_main .section_3 .row .alison .alison_img img {
+      max-width: 100%; }
+    body .container-fluid .page_main .section_3 .row .alison .alison_caption .font_awesome {
+      color: grey; }
+      body .container-fluid .page_main .section_3 .row .alison .alison_caption .font_awesome i {
+        padding: 10px;
+        font-weight: bold;
+        font-size: 20px; }
+  body .container-fluid .page_main .section_4 {
+    position: relative;
+    text-align: center; }
+    body .container-fluid .page_main .section_4 .section_4_background_img img {
+      max-width: 100%;
+      width: 100%; }
+    body .container-fluid .page_main .section_4 .section_4_info {
+      position: absolute;
+      color: white;
+      text-align: center;
+      top: 0%;
+      width: 100%; }
+      body .container-fluid .page_main .section_4 .section_4_info .section_4_header_logo {
+        padding: 20px; }
+      body .container-fluid .page_main .section_4 .section_4_info .section_4_heading {
+        padding: 20px; }
+      body .container-fluid .page_main .section_4 .section_4_info .slick_slider {
+        height: 20%; }
+        body .container-fluid .page_main .section_4 .section_4_info .slick_slider div a p {
+          margin: 0; }
+          body .container-fluid .page_main .section_4 .section_4_info .slick_slider div a p img {
+            height: 40px;
+            width: auto;
+            margin: 0 auto; }
+  body .container-fluid .page_main .section_5 {
+    text-align: center; }
+    body .container-fluid .page_main .section_5 .section_5_info {
+      width: 100%; }
+      body .container-fluid .page_main .section_5 .section_5_info .section_5_header_logo {
+        padding: 20px; }
+      body .container-fluid .page_main .section_5 .section_5_info .section_5_heading {
+        padding: 20px; }
+    body .container-fluid .page_main .section_5 .section_5_info_buttons .section_5_button {
+      margin: 20px;
+      background-color: transparent;
+      border: 2px solid red;
+      padding: 7px 20px;
+      text-align: center;
+      color: red;
+      border-radius: 0; }
+      body .container-fluid .page_main .section_5 .section_5_info_buttons .section_5_button:hover {
+        color: white;
+        background-color: grey;
+        border: 0;
+        padding: 9px 22px; }
+    body .container-fluid .page_main .section_5 .section_5_info_buttons .section_5_button_active {
+      color: white;
+      background-color: red; }
+    body .container-fluid .page_main .section_5 .section_5_all {
+      position: relative; }
+      body .container-fluid .page_main .section_5 .section_5_all .all_tab .display_up {
         width: 100%; }
-        body .container-fluid .page_main .section_5 .section_5_all .display_up img {
+        body .container-fluid .page_main .section_5 .section_5_all .all_tab .display_up img {
           width: 20%; }
-      body .container-fluid .page_main .section_5 .section_5_all .display_down {
+      body .container-fluid .page_main .section_5 .section_5_all .all_tab .display_down {
         width: 100%; }
-        body .container-fluid .page_main .section_5 .section_5_all .display_down img {
+        body .container-fluid .page_main .section_5 .section_5_all .all_tab .display_down img {
           width: 20%; }
-    body .container-fluid .page_main .section_6 .row {
-      text-align: center; }
-      body .container-fluid .page_main .section_6 .row .section_6_info {
-        width: 100%; }
-        body .container-fluid .page_main .section_6 .row .section_6_info .section_6_header_logo {
-          padding: 20px; }
-        body .container-fluid .page_main .section_6 .row .section_6_info .section_6_heading {
-          padding: 20px; }
-      body .container-fluid .page_main .section_6 .row .blog {
-        padding-bottom: 5%; }
-        body .container-fluid .page_main .section_6 .row .blog img {
-          width: 100%; }
-        body .container-fluid .page_main .section_6 .row .blog .calender {
-          text-align: left;
-          width: 49%; }
-          body .container-fluid .page_main .section_6 .row .blog .calender i {
-            margin-right: 1%; }
-        body .container-fluid .page_main .section_6 .row .blog .comments {
-          text-align: right;
-          font-weight: bold;
-          width: 49%; }
-          body .container-fluid .page_main .section_6 .row .blog .comments i {
-            margin-right: 5%; }
-        body .container-fluid .page_main .section_6 .row .blog .blog_heading_padding_less {
-          padding-bottom: 5%; }
-        body .container-fluid .page_main .section_6 .row .blog .blog_heading {
-          padding-bottom: 14.52%; }
-        body .container-fluid .page_main .section_6 .row .blog .blog_detail {
-          text-align: left; }
-    body .container-fluid .page_main .section_7 {
-      position: relative;
-      text-align: center; }
-      body .container-fluid .page_main .section_7 .section_7_background_img img {
-        width: 100%; }
-      body .container-fluid .page_main .section_7 .section_7_content.container {
-        position: absolute;
-        top: 0%;
-        width: 100%;
-        margin: 0 14%; }
-        body .container-fluid .page_main .section_7 .section_7_content.container .section_7_header {
-          padding: 4% 0 4%;
-          color: white; }
-        body .container-fluid .page_main .section_7 .section_7_content.container .section_7_content .social_media_share {
-          width: 49%;
-          text-align: left; }
-          body .container-fluid .page_main .section_7 .section_7_content.container .section_7_content .social_media_share a {
-            padding: 7px; }
-        body .container-fluid .page_main .section_7 .section_7_content.container .section_7_content .email_subscription {
-          text-align: right;
-          width: 50%; }
-          body .container-fluid .page_main .section_7 .section_7_content.container .section_7_content .email_subscription input {
-            font-size: 20px;
-            padding: 5px 26% 12.5px 3%;
-            margin-right: 6.45%; }
-    body .container-fluid .page_main .section_8.container {
-      padding-bottom: 3%;
-      width: 50%; }
-      body .container-fluid .page_main .section_8.container .section_8_header {
-        text-align: center; }
-        body .container-fluid .page_main .section_8.container .section_8_header img {
-          padding: 3%; }
-        body .container-fluid .page_main .section_8.container .section_8_header h3 {
-          padding: 1%; }
-      body .container-fluid .page_main .section_8.container .say_hello {
-        padding-left: 8%; }
-        body .container-fluid .page_main .section_8.container .say_hello .input_entry p input {
-          width: 63%;
-          padding: 1%;
-          outline: none; }
-        body .container-fluid .page_main .section_8.container .say_hello .input_entry p span {
-          padding-left: 4%; }
-        body .container-fluid .page_main .section_8.container .say_hello .input_entry .input_area textarea {
-          resize: none;
-          width: 100%;
-          outline: none; }
-        body .container-fluid .page_main .section_8.container .say_hello .input_entry .button_send {
-          text-align: right; }
-          body .container-fluid .page_main .section_8.container .say_hello .input_entry .button_send .button {
-            padding: 1% 31px; }
-    body .container-fluid .page_footer .responsive-map {
-      overflow: hidden;
-      padding-bottom: 30.25%;
-      position: relative;
-      height: 0; }
-      body .container-fluid .page_footer .responsive-map iframe {
-        width: 100%;
+      body .container-fluid .page_main .section_5 .section_5_all .video_tab {
+        visibility: hidden;
         position: absolute;
         height: 100%;
-        left: 0;
-        top: 0;
-        margin: 0px;
-        padding: 0px;
-        border-width: 0; }
+        width: 100%;
+        top: 0%; }
+        body .container-fluid .page_main .section_5 .section_5_all .video_tab iframe {
+          width: 100%;
+          height: 100%; }
+  body .container-fluid .page_main .section_6 .row {
+    text-align: center; }
+    body .container-fluid .page_main .section_6 .row .section_6_info {
+      width: 100%; }
+      body .container-fluid .page_main .section_6 .row .section_6_info .section_6_header_logo {
+        padding: 20px; }
+      body .container-fluid .page_main .section_6 .row .section_6_info .section_6_heading {
+        padding: 20px; }
+    body .container-fluid .page_main .section_6 .row .blog {
+      padding-bottom: 5%; }
+      body .container-fluid .page_main .section_6 .row .blog img {
+        width: 100%; }
+      body .container-fluid .page_main .section_6 .row .blog .calender {
+        text-align: left;
+        width: 49%; }
+        body .container-fluid .page_main .section_6 .row .blog .calender i {
+          margin-right: 1%; }
+      body .container-fluid .page_main .section_6 .row .blog .comments {
+        text-align: right;
+        font-weight: bold;
+        width: 49%; }
+        body .container-fluid .page_main .section_6 .row .blog .comments i {
+          margin-right: 5%; }
+      body .container-fluid .page_main .section_6 .row .blog .blog_heading_padding_less {
+        padding-bottom: 5%; }
+      body .container-fluid .page_main .section_6 .row .blog .blog_heading {
+        padding-bottom: 14.52%; }
+      body .container-fluid .page_main .section_6 .row .blog .blog_detail {
+        text-align: left; }
+  body .container-fluid .page_main .section_7 {
+    position: relative;
+    text-align: center; }
+    body .container-fluid .page_main .section_7 .section_7_background_img img {
+      width: 100%; }
+    body .container-fluid .page_main .section_7 .section_7_content.container {
+      position: absolute;
+      top: 0%;
+      width: 100%;
+      margin: 0 14%; }
+      body .container-fluid .page_main .section_7 .section_7_content.container .section_7_header {
+        padding: 4% 0 4%;
+        color: white; }
+      body .container-fluid .page_main .section_7 .section_7_content.container .section_7_content .social_media_share {
+        width: 49%;
+        text-align: left; }
+        body .container-fluid .page_main .section_7 .section_7_content.container .section_7_content .social_media_share a {
+          padding: 7px; }
+      body .container-fluid .page_main .section_7 .section_7_content.container .section_7_content .email_subscription {
+        text-align: right;
+        width: 50%; }
+        body .container-fluid .page_main .section_7 .section_7_content.container .section_7_content .email_subscription input {
+          font-size: 20px;
+          padding: 5px 26% 12.5px 3%;
+          margin-right: 6.45%; }
+  body .container-fluid .page_main .section_8.container {
+    padding-bottom: 3%;
+    width: 50%; }
+    body .container-fluid .page_main .section_8.container .section_8_header {
+      text-align: center; }
+      body .container-fluid .page_main .section_8.container .section_8_header img {
+        padding: 3%; }
+      body .container-fluid .page_main .section_8.container .section_8_header h3 {
+        padding: 1%; }
+    body .container-fluid .page_main .section_8.container .say_hello {
+      padding-left: 8%; }
+      body .container-fluid .page_main .section_8.container .say_hello .input_entry p input {
+        width: 63%;
+        padding: 1%;
+        outline: none; }
+      body .container-fluid .page_main .section_8.container .say_hello .input_entry p span {
+        padding-left: 4%; }
+      body .container-fluid .page_main .section_8.container .say_hello .input_entry .input_area textarea {
+        resize: none;
+        width: 100%;
+        outline: none; }
+      body .container-fluid .page_main .section_8.container .say_hello .input_entry .button_send {
+        text-align: right; }
+        body .container-fluid .page_main .section_8.container .say_hello .input_entry .button_send .button {
+          padding: 1% 31px; }
+  body .container-fluid .page_footer .responsive-map {
+    overflow: hidden;
+    padding-bottom: 30.25%;
+    position: relative;
+    height: 0; }
+    body .container-fluid .page_footer .responsive-map iframe {
+      width: 100%;
+      position: absolute;
+      height: 100%;
+      left: 0;
+      top: 0;
+      margin: 0px;
+      padding: 0px;
+      border-width: 0; }

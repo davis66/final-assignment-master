@@ -7,11 +7,15 @@ $(document).ready(function(){
     centerMode: false
   });
 })
-// $('.slick-next').slick({
-//     content: '<i class="fa fa-arrow-right"></i>'
-    
-// })
 
-// $('.slick-prev').slick({
-//     content: 'next'    
-// })
+$(function(){
+  $(".what_we_do_down_triangle").on({
+   mouseenter: function(){
+    $(this).attr('src','raw-images/what we do/red_triangle.png');
+  },
+  mouseleave: function(){
+    $(this).attr('src','raw-images/what we do/grey_triangle.png');
+  }
+  });
+  
+});

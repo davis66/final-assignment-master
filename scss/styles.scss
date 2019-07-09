@@ -58,6 +58,7 @@ button.slick-prev, button.slick-prev:hover {
   color:white;
   border:0;
 }
+
 .arrow-down {
   display:inline-block;
   border-left: 120px solid transparent;
@@ -65,9 +66,81 @@ button.slick-prev, button.slick-prev:hover {
   border-top: 137px solid #a9b8cc;
 }
 
+//slick-slider
+button.slick-next, button.slick-next:hover {
+
+  
+
+  width: 47px;
+  height: 75px;
+  background-image: url("../raw-images/happyClient/rightArrow.png");
+  background-size: 9px;
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+button.slick-prev, button.slick-prev:hover {
+ 
+  
+
+  width: 47px;
+  height: 75px;
+  background-image: url("../raw-images/happyClient/leftArrow.png");
+  background-size: 9px;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 70px;
+  color: #EA8496;
+  line-height: inherit;
+  font-weight: bold;
+}
+
+
+.block_inline{
+ display:inline-block;
+}
+.margin-0{
+  margin:0
+}
+.text_highlighted{
+  color:red
+}
+.nav-item{
+  .nav-link{
+    color:white;
+  }
+}
+// .giveRelative{
+//   position:relative;
+// }
+// .pp2{
+// position:absolute;
+// }
+// .nn2{
+// position:absolute;
+// }
+.button {
+  padding: 2.4% 31px;
+  background: #ED485C;
+  color:white;
+  border:0;
+}
+
+.arrow-down {
+  display:inline-block;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-top: 137px solid #a9b8cc;
+}
+
+
+
+
 body{
-  background-color: #f3f3f3;
+  
   .container-fluid {
+    background-color: #f3f3f3;
     padding:0;
     .page_header{
       .section_one{
@@ -136,7 +209,9 @@ body{
               &:active {
                 text-decoration: none;
               }
-              
+              p{
+                display:inline-block;
+              }
             }
           }
         }
@@ -276,6 +351,30 @@ body{
                     width: auto;
                     margin: 0 auto;
                   }
+                  // .chastica{
+                  //   background: url('raw-images/happyClient/chastica.png');
+                  //   height: 40px;
+                  //   width: 25%;
+                  //   margin: 0 auto;
+                  // }
+                  // .ozi{
+                  //   background: url('raw-images/happyClient/ozi.png');
+                  //   height: 40px;
+                  //   width: 25%;
+                  //   margin: 0 auto;
+                  // }
+                  // .freshes{
+                  //   background: url('raw-images/happyClient/daisyclean.png');
+                  //   height: 40px;
+                  //   width: 25%;
+                  //   margin: 0 auto;
+                  // }
+                  // .daisyclean{
+                  //   background: url('raw-images/happyClient/daisyclean.png');
+                  //   height: 40px;
+                  //   width: 25%;
+                  //   margin: 0 ;
+                  // }
                 }
               }
             }
@@ -303,34 +402,60 @@ body{
         .section_5_info_buttons{
           .section_5_button{
             margin: 20px;
-            background: transparent;
+            background-color: transparent;
             border: 2px solid red;
             padding: 7px 20px;
             text-align: center;
             color: red;
             border-radius:0;
+
+            &:hover{
+              color:white;
+            background-color : grey; 
+            border:0;
+            padding: 9px 22px;
+            }
           }
+          .section_5_button_active{
           
+            color:white;
+            background-color : red; 
+          }
         }
         .section_5_all{
-          .display_up{
-            width:100%;
-            // display:flex;
-            // max-height:200px;
-            img{
-              // font-size:0;
-              // max-width:100%;
-              width:20%;
-             
+          position: relative;
+          .all_tab{
+              .display_up{
+              width:100%;
+              // display:flex;
+              // max-height:200px;
+              img{
+                // font-size:0;
+                // max-width:100%;
+                width:20%;
+                
+              }
+            }
+            .display_down{
+              width:100%;
+              img{
+                
+                width:20%
+              }
             }
           }
-          .display_down{
+          .video_tab{
+            // text-align:center;
+            visibility:hidden;
+            position: absolute;
+            height:100%;
             width:100%;
-            img{
-              
-              width:20%
+            top:0%;
+            iframe{
+              width:100%;
+              height:100%;
             }
-          }
+          }  
         }
       }
       .section_6{
